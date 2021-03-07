@@ -1,11 +1,10 @@
 module.exports = {
-  title: 'Your Site Title',
-  description: 'Your Site',
-  url: 'https://www.example.com',
-  author: 'You',
+  title: 'The Letter of the Day',
+  description: 'Designed for use on an Electric Objects EO1',
+  url: 'https://letter-of-the-day.netlify.app',
+  author: 'Matt Lehrer',
   metadata: {
-    twitter: '@you',
-    default_img: '/images/default_img.jpg',
+    twitter: '@mattlehrer',
   },
   env: process.env.ELEVENTY_ENV === 'production',
 };
