@@ -1,0 +1,26 @@
+---
+layout: layouts/base.njk
+---
+
+<div class="min-h-screen text-center bg-gray-100">
+  <!-- Letter -->
+  <header class="flex flex-col justify-center text-gray-700">
+    {{ letter.toLocaleUpperCase() }} {{ letter }}
+  </header>
+
+  <!-- Example words -->
+  <div class="flex flex-wrap justify-around space-x-6">
+    <figure class="w-1/3">
+      <img src="{{ images[0].src }}" alt="{{ images[0].caption }}" />
+      <figcaption>{{ images[0].caption }}</figcaption>
+    </figure>
+    <figure class="w-1/3">
+      <img src="{{ images[1].src }}" alt="{{ images[1].caption }}" />
+      <figcaption>{{ images[1].caption }}</figcaption>
+    </figure>
+    <figure class="w-1/3">
+      <img src="{{ images[2].src }}" alt="{{ images[2].caption }}" />
+      <figcaption>{{ images[2].caption }}</figcaption>
+    </figure>
+  </div>
+</div>
